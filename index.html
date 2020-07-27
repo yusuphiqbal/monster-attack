@@ -41,16 +41,16 @@
               <div class="card-body" v-else>
                 <div class="row">
                   <div class="col-md-3">
-                    <button  class="btn btn-block btn-lg btn-danger">Attack</button>
+                    <button  class="btn btn-block btn-lg btn-danger" @click="attack">Attack</button>
                   </div>
                   <div class="col-md-3">
-                    <button  class="btn btn-block btn-lg btn-warning">Special Attack</button>
+                    <button  class="btn btn-block btn-lg btn-warning" @click="specialAttack">Special Attack</button>
                   </div>
                   <div class="col-md-3">
-                    <button  class="btn btn-block btn-lg btn-success">Heal</button>
+                    <button  class="btn btn-block btn-lg btn-success" @click="heal">Heal</button>
                   </div>
                   <div class="col-md-3">
-                    <button  class="btn btn-block btn-lg btn-dark">Give Up</button>
+                    <button  class="btn btn-block btn-lg btn-dark" @click="giveUp">Give Up</button>
                   </div>
                 </div>
               </div>
