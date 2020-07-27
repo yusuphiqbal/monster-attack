@@ -1,0 +1,22 @@
+{
+  "name": "monster-attack",
+  "version": "1.0.0",
+  "description": "A small game built using Vue JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yusuphiqbal/monster-attack.git"
+  },
+  "author": "Yusuph Iqbal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yusuphiqbal/monster-attack/issues"
+  },
+  "homepage": "https://github.com/yusuphiqbal/monster-attack#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.0"
+  }
+}
