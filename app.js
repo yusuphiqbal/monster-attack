@@ -13,7 +13,7 @@ new Vue({
       this.monsterHealth = 100;
     },
     attack: function () {
-      let damage = th.calculateDamage(3, 10);
+      let damage = this.calculateDamage(3, 10);
       this.monsterHealth -= damage;
       
       this.turns.unshift({
