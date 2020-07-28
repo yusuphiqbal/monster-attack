@@ -63,9 +63,15 @@
       <div class="container">
         <div class="row">
           <div class="col">
-            <div class="card">
+            <div class="card" v-if="turns.length > 0">
               <div class="card-body">
-  
+                <ul class="list-unstyled">
+                  <li v-for="turn in turns">
+                    <div class="alert" :class="{'alert-info': turn.isPlayer, 'alert-danger': !turn.isPlayer}" role="alert">
+                      {{ turn.text }}
+                    </div>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
